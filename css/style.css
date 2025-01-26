@@ -1,0 +1,301 @@
+#formd{
+    padding-left: 20px;
+}
+.box{
+    border: 1px solid purple;
+    background-color: purple;
+    width: 900px;
+    height: 400px;
+    display: flex;
+
+}
+.box>.box-div{
+    border: 1px solid white;
+    background-color: white;
+    width: 150px;
+    height: 190px;
+    margin: 10px 10px 0px 20px;
+
+}
+#navy{
+    background-color: white;
+    border: 1px solid rgb(168, 163, 163);
+    text-align: right;
+    padding: 10px 50px 10px 20px;
+    position: sticky;
+    top: 20px; 
+ }
+ #navy1{
+    color: black;
+    padding-left:  50px;
+ }
+ a{
+    text-decoration: none;
+ }
+ .border{
+    width: 400px;
+    height: 300px;
+    border: 2px solid rgb(107, 186, 235);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .border>.border-div{
+    width: 100px;
+    height: 20px;
+    border: 1px solid rgb(90, 142, 175);
+    background-color: rgb(90, 142, 175) ;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    font-weight: 500;
+
+ }
+ .section2{
+   justify-content: center;
+   text-align: center;
+   margin-left: 30px;
+   
+}
+.section2-div2{
+   display: flex;
+   margin-left: 150px;
+   gap: 5px;
+}
+.section2-div2-item {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid #4d7298;
+   background-color: #4d7298;
+   color: white;
+   width: 290px;
+   height: 300px;
+   border-radius: 20px;
+   overflow: hidden; 
+   margin:0px;
+   box-shadow:2px 2px 2px 2px rgb(165, 218, 231);
+
+    } 
+    .worb{
+      display: flexbox;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: 200px;
+      margin-top: 70px;
+    }
+    .worb>div{
+      display: inline-block;
+      color: white;
+      border: 3px solid rgb(165, 218, 231);
+      border-radius: 18px;
+      background-color: #4d7298;
+      width: 130px;
+      margin: 10px;
+      line-height: 75px;
+      font-size: 30px;
+      padding-left: 40px;
+      padding-right: 40px;
+
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap; 
+      height: 300px;
+      width: 800px;
+      border: 5px solid gold;
+      align-items: flex-start; 
+    }
+    
+    .box {
+      width: 50px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+    }
+    
+    
+    .box:nth-child(1) { background-color: orange;height: 20px; width: 20px; margin-top: 30px; }
+    .box:nth-child(2) { background-color: blueviolet; }
+    .box:nth-child(3) { background-color: mediumslateblue; }
+    .box:nth-child(4) { background-color: navy; height: 300px; }
+    .box:nth-child(5) { background-color: yellow; align-self: center; }
+    .box:nth-child(6) { background-color: coral; }
+    .box:nth-child(7) { background-color: tomato; }
+    .box:nth-child(8) { background-color: gray; }
+    .box:nth-child(9) { background-color: mediumseagreen; }
+    .box:nth-child(10) { background-color: teal; align-self: flex-end; }
+    
+    .container1{
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      width: 600px;
+      border: 5px solid gold;
+    }
+    .box1{
+      width:600px ;
+      height: 50px;
+    align-items: center;
+    }
+    .box1:nth-child(1) { background-color: orange;}
+    .box1:nth-child(2) { background-color: blueviolet; }
+    .box1:nth-child(3) { background-color: mediumslateblue; }
+    .box1:nth-child(4) { background-color: navy;  }
+    .box1:nth-child(5) { background-color: yellow; }
+    .box1:nth-child(6) { background-color: coral; }
+    .box1:nth-child(7) { background-color: tomato; }
+    .box1:nth-child(8) { background-color: gray; }
+    .box1:nth-child(9) { background-color: mediumseagreen; }
+    .box1:nth-child(10) { background-color: teal;}
+    
+.dis{
+   display: flex;
+   width: 200px;
+   height: 40px;
+   border: 2px solid rgb(183, 57, 78);
+
+}
+.dis-div1{
+   flex: 2;
+   background-color: aqua;
+}
+.dis-div2{
+   flex: 1;
+   background-color: yellow;
+}
+.worb1{
+   display: flexbox;
+   flex-wrap: wrap;
+   margin-left: 100px;
+   margin-top: 30px;
+   border: 2px solid gold;
+ }
+ .worb1>div{
+   display: inline-block;
+   color: white;
+   border: 3px solid rgb(165, 218, 231);
+   border-radius: 18px;
+   background-color: #4d7298;
+   width: 130px;
+   margin: 10px;
+   line-height: 75px;
+   font-size: 30px;
+   padding-left: 40px;
+   padding-right: 40px;
+
+ }
+ .disp {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px;
+ }
+
+ nav {
+   display: flex;
+   gap: 50px; 
+ }
+
+ nav a {
+   margin: 0 10px;
+   text-decoration: none;
+   color: #333;
+ }
+
+ main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 1;
+   text-align: center;
+   padding: 20px;
+ }
+
+ main img {
+   width: 100px;
+   height: 100px;
+   margin-bottom: 20px;
+ }
+
+ .buttons {
+   margin-top: 10px;
+ }
+
+ .buttons button {
+   margin: 0 5px;
+   padding: 5px 10px;
+   background-color: rgb(229, 229, 229);
+   color: black;
+   border: 1px solid  rgb(229, 229, 229);
+   border-radius: 10px;
+   cursor: pointer;
+ }
+
+ footer {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 20px;
+   background-color: #f1f1f1;
+   font-size: 14px;
+ }
+
+ footer a {
+   margin: 0 10px;
+   text-decoration: none;
+   color: #333;
+ }
+ .text{
+   width:350px;
+   border: 1px solid black;
+   border-radius: 25px;
+ }
+ .grid-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px;
+   width: 90%;
+   max-width: 1200px;
+}
+
+.item {
+   background-color: #ddd;
+   padding: 70px;
+   text-align: center;
+   border: 1px solid #ccc;
+   font-size: 18px;
+}
+
+.sub-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 5px;
+   background-color: #eee;
+   padding: 10px;
+}
+
+
+.sub-grid div {
+   background-color: #bbb;
+   padding: 10px;
+   border: 1px solid #aaa;
+}
+.sub-grid-g{
+   display: grid;
+   grid-template-columns: repeat(1fr, 1fr);
+   gap: 5px;
+   background-color: #eee;
+   padding: 10px;
+}
+
+
+.sub-grid-g div {
+   background-color: #bbb;
+   padding: 10px;
+   border: 1px solid #aaa;
+}
